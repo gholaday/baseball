@@ -27,6 +27,7 @@
 		"@supabase/supabase-js": "^2.32.0",
 		"d3": "^7.8.5",
 		"d3-shape": "^3.2.0",
+		"dayjs": "^1.11.9",
 		"layercake": "^7.6.1"
 	}
 }

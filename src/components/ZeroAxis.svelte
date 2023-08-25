@@ -23,6 +23,7 @@
 		x1="0"
 		x2={$width}
 	/>
+	<text class="annotation" y={$height + minValue * rangeDiff} x={$width}>.500</text>
 </g>
 
 <style>
@@ -33,5 +34,12 @@
 
 	.baseline {
 		stroke-dasharray: 10;
+	}
+
+	.annotation {
+		position: absolute;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1rem;
+		fill: #aaa;
 	}
 </style>

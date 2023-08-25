@@ -1,7 +1,5 @@
 <script>
 	export let data;
-
-	console.log(data);
 </script>
 
 <div class="links-container">
@@ -32,6 +30,8 @@
 		& > img {
 			width: 75px;
 			height: 75px;
+
+			filter: drop-shadow(5px 5px 5px #555555);
 		}
 	}
 </style>
